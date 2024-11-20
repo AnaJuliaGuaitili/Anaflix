@@ -1,0 +1,48 @@
+/* Estilos gerais do corpo */
+body {
+    color: rgb(8, 250, 238); 
+    background-color: rgb(6, 84, 87); 
+    margin: 0px;
+    font-family: Arial, sans-serif; 
+}
+
+/* Estilo do cabeçalho */
+header {
+    border-bottom: solid 2px rgb(114, 227, 255); 
+    padding: 20px;
+    font-size: 32px; 
+    color: aqua;
+    text-align: center; 
+}
+
+/* Estilo da seção com o vídeo */
+section {
+    background: rgba(8, 18, 104, 0.664); 
+    padding-bottom: 80px; 
+    padding-top: 80px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+/* Estilo para o vídeo */
+video {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+}
+
+/* Estilo para o título principal */
+h1.title {
+    margin-top: 20px;
+    font-size: 36px; 
+    color: rgb(114, 227, 255); 
+}
+
+/* Estilo para os parágrafos */
+p {
+    color: rgb(190, 255, 255); 
+    font-size: 18px; 
+}
